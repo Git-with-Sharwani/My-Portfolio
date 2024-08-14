@@ -40,14 +40,6 @@ body{
 .home-content .profession{
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
-/* .profession span{
-    color: rgb(251, 99, 4);
-    font-family: cursive;
-} */
-/* #home-content .profession{
-    font-size: 2rem;
-    color: rgb(65, 131, 254);
-}  */
 .waving-hand {
     animation-name: wave-animation;
     animation-duration: 2.5s;
@@ -88,7 +80,9 @@ body{
     }
   }  
 @media only screen and (max-width:768px){
-  
+    .typing-demo {
+        font-size: 1em;
+    }
 }
 /* ------------------------about-section---------------------------------- */
 .row h1{
@@ -242,10 +236,17 @@ body{
     color: black;
   }
   
-  .flip-card-back {
+  .flip-card-back{
     background-color:aqua;
     font-family: Georgia, 'Times New Roman', Times, serif;
     transform: rotateY(180deg);
+  }
+  .flip-card-back h3{
+    color:#ef3c00;
+    margin: 1rem;
+  }
+  .flip-card-back a i{
+    font-size: 30px;
   }
   .pro{
     width:400px;
