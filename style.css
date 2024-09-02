@@ -58,13 +58,16 @@ body{
    100% { transform: rotate( 0.0deg) }
   }
   .typing-demo {
-    width: 25ch;
+    width: 31ch;
     animation: typing 2s steps(22), blink .5s step-end infinite alternate;
     white-space: nowrap;
     overflow: hidden;
     border-right: 3px solid;
     font-family: monospace;
     font-size: 2em;
+  }
+  .typing-demo span{
+    color: #ef3c00;
   }
   
   @keyframes typing {
